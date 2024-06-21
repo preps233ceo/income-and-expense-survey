@@ -12,7 +12,7 @@ This project is a comprehensive survey tool developed to collect and analyze par
 4. [Data Processing](#data-processing)
 5. [Data Visualization](#data-visualization)
 6. [Deployment](#deployment)
-7. [Project Structure](#project-structure)
+7. [Project Files](#project-files)
 
 ## Installation
 
@@ -196,29 +196,12 @@ save_to_csv(users)
    - Set up a virtual environment and install dependencies.
    - Configure Nginx as a reverse proxy.
 
-## Project Structure
+## Project Files
 
-```
-income-expense-survey-tool/
-│
-├── app.py
-├── templates/
-│   └── index.html
-├── static/
-├── user_class.py
-├── data_processing.py
-├── requirements.txt
-├── README.md
-└── user_data.csv
-```
+- `Flask App.ipynb`: Main Flask application file.
+- `index.html`: HTML template for the survey form.
+- `User class.ipynb`: Defines the `User` class.
+- `Fetch data from MangoDB.ipynb`: Script for fetching data from MongoDB and saving it to CSV.
+- `Data visualization.ipynb`: Data visualization
 
-- `app.py`: Main Flask application file.
-- `templates/index.html`: HTML template for the survey form.
-- `user_class.py`: Defines the `User` class.
-- `data_processing.py`: Script for fetching data from MongoDB and saving it to CSV.
-- `requirements.txt`: Lists the Python dependencies.
-- `user_data.csv`: CSV file containing the collected user data.
 
----
-
-Make sure to customize the repository URL, EC2 instance details, and any other specific information before using this README.
